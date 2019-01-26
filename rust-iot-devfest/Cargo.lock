@@ -227,6 +227,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "light-morse"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "log"
 version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -432,6 +437,7 @@ dependencies = [
 name = "rust-iot-devfest"
 version = "0.1.0"
 dependencies = [
+ "light-morse 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "rodio 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -593,6 +599,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum lewton 0.9.3 (registry+https://github.com/rust-lang/crates.io-index)" = "81d583f12101d36b9c19f85326f3c4e7d3b88d17f1131113e13da056dc0d4437"
 "checksum libc 0.2.48 (registry+https://github.com/rust-lang/crates.io-index)" = "e962c7641008ac010fa60a7dfdc1712449f29c44ef2d4702394aea943ee75047"
 "checksum libloading 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "fd38073de8f7965d0c17d30546d4bb6da311ab428d1c7a3fc71dff7f9d4979b9"
+"checksum light-morse 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6778bf4a2147d09a0ef3d55a1c0fbbd798d87e40df965e7448d5b802ae60d003"
 "checksum log 0.3.9 (registry+https://github.com/rust-lang/crates.io-index)" = "e19e8d5c34a3e0e2223db8e060f9e8264aeeb5c5fc64a4ee9965c062211c024b"
 "checksum log 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)" = "c84ec4b527950aa83a329754b01dbe3f58361d1c5efacd1f6d68c494d08a17c6"
 "checksum mach 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "86dd2487cdfea56def77b88438a2c915fb45113c5319bfe7e14306ca4cd0b0e1"
