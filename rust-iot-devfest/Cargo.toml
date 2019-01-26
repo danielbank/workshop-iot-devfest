@@ -1,0 +1,8 @@
+[package]
+name = "rust-iot-devfest"
+version = "0.1.0"
+authors = ["Daniel Bank <daniel.p.bank@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rodio = "0.8.1"
